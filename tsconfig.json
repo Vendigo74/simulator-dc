@@ -1,0 +1,37 @@
+{
+  "compilerOptions": {
+    "target": "es5",
+    "lib": [
+      "dom",
+      "dom.iterable",
+      "esnext"
+    ],
+    "allowJs": true,
+    "skipLibCheck": true,
+    "strict": false,
+    "forceConsistentCasingInFileNames": true,
+    "noEmit": true,
+    "esModuleInterop": true,
+    "module": "esnext",
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "jsx": "react-jsx",
+    "allowSyntheticDefaultImports": true,
+    "noFallthroughCasesInSwitch": true
+  },
+  "include": [
+    "dsfgnext-env.d.ts",
+    "**/*.ts",
+    "**/*.tsx",
+    "server/data/cars.js",
+    "server/data/marketingCategory.js",
+    "server/data/marketingActions.js"
+  ],
+  "exclude": [
+    "node_modules"
+  ],
+  "rules": {
+    "no-unused-vars": "off"
+  }
+}

@@ -1,0 +1,74 @@
+@import '~antd/dist/antd.css';
+@import 'vars';
+
+html {
+	font-size: 62.5%;
+}
+
+body {
+	font-size: 1.4rem;
+	line-height: 1.5;
+	font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial,
+		'Noto Sans', sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol',
+		'Noto Color Emoji';
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+
+	&.no-scroll {
+		overflow: hidden;
+	}
+}
+
+*,
+*:before,
+*:after {
+	box-sizing: border-box;
+}
+
+a {
+	text-decoration: none;
+	&:hover {
+		text-decoration: underline;
+	}
+}
+
+.header__logout {
+	cursor: pointer;
+}
+.ant-descriptions-title {
+	white-space: normal;
+}
+.marketing__btn {
+	display: block;
+	margin: 0 auto;
+	margin-top: 16px;
+}
+
+.ant-menu-submenu-title {
+	line-height: 20px;
+}
+
+.ant-badge-status-dot {
+	width: 12px;
+	height: 12px;
+}
+
+/* .ant-collapse-header {
+	flex: auto;
+	overflow: hidden;
+	color: rgba(0, 0, 0, 0.85);
+	font-weight: bold;
+	font-size: 16px;
+	line-height: 1.5715;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+} */
+/* Blocks */
+@import 'blocks/main-layout';
+@import 'blocks/bill';
+@import 'blocks/footer';
+@import 'blocks/swiper';
+@import 'blocks/marketing';
+@import 'blocks/login';
+@import 'blocks/registration';
+@import 'blocks/marketing-kpi.scss';

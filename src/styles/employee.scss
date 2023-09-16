@@ -1,0 +1,63 @@
+.employee {
+
+  &__actions {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem 0;
+    width: 100%;
+  }
+
+  &__card {
+    margin-bottom: 3rem;
+  }
+
+  &__study {
+    margin-top: 2rem;
+  }
+
+  &__kpi {
+    display: block;
+    margin-bottom: 1rem;
+  }
+
+  .edit {
+    &__action {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      margin-bottom: 3rem;
+    }
+  }
+
+  .study {
+    display: flex;
+    flex-direction: column;
+
+    &__item {
+      display: flex;
+      margin-bottom: .5rem;
+    }
+
+    &__label {
+      font-weight: bold;
+    }
+
+    &__description {
+      margin-left: 2rem;
+    }
+
+    &__action {
+      margin-top: 1rem;
+    }
+  }
+}
+
+.stats {
+  &__item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 1rem 0;
+  }
+}

@@ -1,0 +1,78 @@
+.bill .site-card-wrapper {
+  padding: 10px 20px;
+}
+
+.cards-group {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.site-badge-green .ant-badge-count {
+  background-color:#F6FFED;
+  color: #52C41A;
+  box-shadow: 0 0 0 1px #52C41A inset;
+}
+
+.site-badge-red .ant-badge-count{
+  background-color: #FFF1F0;
+  color: #F5222D;
+  width: 2rem;
+  box-shadow: 0 0 0 1px #F5222D inset;
+}
+
+.site-badge-blue .ant-badge-count{
+  background-color: #E6F7FF;
+  color: #1890FF;
+  width: 2rem;
+  box-shadow: 0 0 0 1px #1890FF inset;
+}
+
+.site-badge-blue-plus .ant-badge-count{
+  background-color: #E6F7FF;
+  color: #1890FF;
+  width: 2rem;
+  box-shadow: 0 0 0 1px #1890FF inset;
+  visibility: hidden;
+}
+
+.cards-text {
+  width: 100px;
+  margin-bottom: 15px;
+}
+
+.cards-text-employees {
+  width: 150px;
+  margin-bottom: 15px;
+}
+
+.bill-text {
+  color: grey;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 22px;
+}
+
+.bill-button {
+  margin-left: -.8rem;
+  margin-top: -.8rem;
+}
+
+.large-text {
+  color: black;
+  font-size: 24px;
+}
+
+.bill-card {
+  height: 270px;
+}
+
+.ps-image {
+  position: absolute;
+  bottom: 15px;
+  left: 200px;
+}
+
+.popover {
+  margin: 0;
+}

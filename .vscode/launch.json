@@ -1,0 +1,28 @@
+{
+	// Используйте IntelliSense, чтобы узнать о возможных атрибутах.
+	// Наведите указатель мыши, чтобы просмотреть описания существующих атрибутов.
+	// Для получения дополнительной информации посетите: https://go.microsoft.com/fwlink/?linkid=830387
+	"version": "0.2.0",
+	"configurations": [
+		{
+			"type": "pwa-chrome",
+			"request": "launch",
+			"name": "Launch Chrome against localhost",
+			"url": "http://localhost:3000",
+			"webRoot": "${workspaceFolder}/src"
+		},
+		{
+			"type": "node",
+			"name": "vscode-jest-tests",
+			"request": "launch",
+			"args": ["test", "--runInBand", "--no-cache"],
+			"cwd": "${workspaceFolder}",
+			"console": "internalConsole",
+			"internalConsoleOptions": "openOnSessionStart",
+			"disableOptimisticBPs": true,
+			"runtimeExecutable": "${workspaceFolder}/node_modules/.bin/react-scripts",
+			"protocol": "inspector",
+			"resolveSourceMapLocations": ["${workspaceFolder}/**", "!**/node_modules/**"]
+		}
+	]
+}

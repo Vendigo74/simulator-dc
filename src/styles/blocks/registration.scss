@@ -1,0 +1,55 @@
+.form__check {
+  display: block;
+  width: 220px;
+  text-align: left;
+  margin-left: 20px;
+  font-family: "HelveticaNeueCyr-Medium";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 108.1%;
+  letter-spacing: 0.05em;
+  color: #a1a4b2;
+}
+
+.registration__wrapper {
+  margin: 0 auto;
+  margin-top: 32px;
+  width: 414px;
+  height: 555px;
+  text-align: center;
+}
+
+.registration__title {
+  margin-bottom: 1.5em;
+}
+
+input[type="checkbox"] {
+  display: none;
+}
+
+input[type="checkbox"] + label::after {
+  content: "";
+  position: relative;
+  top: -14px;
+  left: 179px;
+  width: 24px;
+  height: 24px;
+  color: transparent;
+  display: inline-block;
+  border: 2px solid #a1a4b2;
+  border-radius: 4px;
+  font-size: 20px;
+  line-height: 22px;
+  margin: -5px 5px 0 0;
+  text-align: center;
+  vertical-align: middle;
+  transition: color ease 0.3s;
+}
+
+input[type="checkbox"]:checked + label::after {
+  content: url("../../assets/Vector.png");
+  position: relative;
+  border: 2px solid #a1a4b2;
+  border-radius: 4px;
+}

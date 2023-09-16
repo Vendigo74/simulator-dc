@@ -1,0 +1,19 @@
+@import "../vars";
+
+.timer {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  letter-spacing: 1px;
+  font-weight: 500;
+  color: $primary;
+
+  span {
+    &:not(:last-child) {
+      &:after {
+        content: ":";
+        margin: 0 0.1rem;
+      }
+    }
+  }
+}

@@ -1,0 +1,16 @@
+.admin {
+
+  .stats {
+    margin: 0;
+    padding: 0;
+  }
+
+  .logs {
+    margin-top: 4rem;
+
+    &__message {
+      font-size: 1.4rem;
+      padding: 0.4rem 1rem;
+    }
+  }
+}

@@ -1,0 +1,13 @@
+.trade {
+  &__item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 1.5rem 0;
+    line-height: 1.2;
+  }
+
+  &__output {
+    max-width: 15rem;
+  }
+}

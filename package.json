@@ -1,0 +1,77 @@
+{
+	"name": "simulator-frontend-react",
+	"version": "0.1.0",
+	"private": true,
+	"scripts": {
+		"start": "react-scripts start",
+		"build": "react-scripts build",
+		"test": "react-scripts test",
+		"eject": "react-scripts eject"
+	},
+	"dependencies": {
+		"@ant-design/charts": "1.2.5",
+		"@ant-design/icons": "4.6.2",
+		"@reduxjs/toolkit": "1.5.1",
+		"antd": "4.15.3",
+		"axios": "0.21.2",
+		"babel-jest": "26.6.0",
+		"hoist-non-react-statics": "^3.3.2",
+		"moment": "2.29.4",
+		"react": "17.0.2",
+		"react-dom": "17.0.2",
+		"react-error-boundary": "3.1.3",
+		"react-hook-form": "7.9.0",
+		"react-redux": "7.2.4",
+		"react-router-dom": "5.2.0",
+		"react-scripts": "4.0.3",
+		"react-spring": "9.1.2",
+		"redux": "4.1.0",
+		"redux-thunk": "2.3.0",
+		"sass": "1.32.12",
+		"swiper": "6.6.2"
+	},
+	"devDependencies": {
+		"@testing-library/jest-dom": "5.14.1",
+		"@testing-library/react": "12.0.0",
+		"@testing-library/user-event": "13.2.1",
+		"@types/jest": "26.0.24",
+		"@types/node": "15.0.1",
+		"@types/react": "17.0.47",
+		"@types/react-redux": "7.1.16",
+		"@types/react-router-dom": "5.1.7",
+		"@typescript-eslint/eslint-plugin": "4.28.0",
+		"@typescript-eslint/parser": "4.28.0",
+		"eslint": "7.29.0",
+		"eslint-config-airbnb": "18.2.1",
+		"eslint-config-prettier": "8.3.0",
+		"eslint-plugin-import": "2.23.4",
+		"eslint-plugin-jsx-a11y": "6.4.1",
+		"eslint-plugin-prettier": "3.4.0",
+		"eslint-plugin-react": "7.24.0",
+		"eslint-plugin-react-hooks": "4.2.0",
+		"msw": "0.35.0",
+		"prettier": "2.3.2",
+		"typescript": "4.2.4"
+	},
+	"resolutions": {
+		"@types/react": "17.0.47"
+	},
+	"browserslist": {
+		"production": [
+			">0.2%",
+			"not dead",
+			"not op_mini all"
+		],
+		"development": [
+			"last 1 chrome version",
+			"last 1 firefox version",
+			"last 1 safari version"
+		]
+	},
+	"eslintConfig": {
+		"rules": {
+			"no-unused-vars": 0,
+			"@typescript-eslint/no-unused-vars": 0
+		}
+	}
+}
